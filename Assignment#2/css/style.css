@@ -1,0 +1,237 @@
+/* General styles for index.html  */
+body {
+    margin: 0;
+    padding: 0;
+    font-family: "Roboto", sans-serif;
+}
+
+/* Header styles + Red Color for it */
+header {
+    background-color: #f00; 
+    padding: 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.logo-container {
+    flex: 1;
+    display: flex;
+    justify-content: center;
+}
+
+.logo-container img {
+    max-width: 100%;
+    max-height: 100px; 
+    border-radius: 50%; 
+}
+
+nav ul {
+    list-style: none;
+    display: flex;
+    gap: 20px;
+    margin: 0;
+    padding: 0;
+}
+
+nav ul li {
+    display: inline;
+}
+/* White font color provided for the navigation links */
+nav ul li a {
+    text-decoration: none;
+    color: #fff; 
+}
+
+/* Masthead styles for the background */
+.masthead {
+    background-image: url("../img/pizzaoven.jpeg"); 
+    background-size: cover;
+    background-position: center;
+    text-align: center;
+    padding: 100px 0;
+    color: #fff; /* White font color for the masthead text */
+}
+/* Transperancy of the color for the background */
+.masthead-content {
+    background-color: rgba(255, 255, 255, 0.8); 
+    padding: 20px;
+    border-radius: 10px;
+    max-width: 400px;
+    margin: 0 auto;
+}
+
+.masthead h1 {
+    font-size: 36px;
+}
+
+.masthead p {
+    font-size: 18px;
+    margin-bottom: 30px;
+}
+
+.order-button {
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: #f00;
+    color: #fff;
+    text-decoration: none;
+    border-radius: 5px;
+    font-size: 18px;
+}
+
+/* Adjustments for features */
+.features {
+    text-align: center;
+    padding: 50px 0;
+}
+
+.features h2 {
+    font-size: 24px;
+    margin-bottom: 20px;
+}
+
+.features ul {
+    list-style: none;
+    padding: 0;
+}
+
+.features li {
+    font-size: 18px;
+    margin-bottom: 10px;
+}
+
+/* Thank You Button */
+.thank-you-button {
+    display: block;
+    margin: 20px auto;
+    padding: 10px 20px;
+    background-color: #f00;
+    color: #fff;
+    text-decoration: none;
+    border-radius: 5px;
+    font-size: 18px;
+}
+
+/* General styles + Red background for the order page for order.html */ 
+body {
+    margin: 0;
+    padding: 0;
+    font-family: "Roboto", sans-serif;
+    background-color: #f00; 
+}
+
+/* Order page style + White font color provided for the order page */
+.order-pizza {
+    text-align: center;
+    padding: 50px 0;
+    color: #fff; 
+}
+
+.order-pizza h1 {
+    font-size: 36px;
+    margin-bottom: 20px;
+}
+
+.order-pizza label {
+    display: block;
+    margin-bottom: 10px;
+    font-size: 18px;
+}
+
+.order-pizza input[type="text"],
+.order-pizza input[type="email"],
+.order-pizza input[type="tel"] {
+    width: 100%;
+    padding: 10px;
+    font-size: 16px;
+    border-radius: 5px;
+}
+
+/* Pizza Options and Topping Styles */
+.pizza-option,
+.pizza-toppings {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 20px;
+}
+
+/* White font color as well for the toppings and pizza options */
+.pizza-option label,
+.pizza-toppings label {
+    color: #fff; 
+    font-size: 16px;
+}
+
+.pizza-option img,
+.pizza-toppings img {
+    max-width: 80px; 
+    border-radius: 5px;
+}
+
+.pizza-price,
+.toppings-price {
+    font-size: 14px;
+}
+
+/* Pizza Size styles */
+.order-size {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.order-size h4 {
+    font-size: 24px;
+    margin-bottom: 10px;
+}
+
+.order-size input[type="radio"] {
+    margin-right: 5px;
+    vertical-align: middle;
+}
+
+/* Drink Option styles */
+.drink-option {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.drink-option h5 {
+    font-size: 24px;
+    margin-bottom: 10px;
+}
+
+.drink-option input[type="checkbox"] {
+    margin-right: 5px;
+    vertical-align: middle;
+}
+/* Adjusts all drink images to the appropriate size */
+.drink-option img {
+    max-width: 60px; 
+    border-radius: 5px;
+}
+/* Adjusts the font size for the drink to the appropriate size */
+
+.drink-price {
+    font-size: 14px;
+}
+
+/* Method of Receipt styles */
+h6 {
+    text-align: center;
+    font-size: 24px;
+    margin-bottom: 20px;
+}
+
+/* Submit Button style */
+button[type="submit"] {
+    display: block;
+    margin: 20px auto;
+    padding: 10px 20px;
+    background-color: #f00;
+    color: #fff;
+    text-decoration: none;
+    border-radius: 5px;
+    font-size: 18px;
+}

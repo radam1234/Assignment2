@@ -1,0 +1,197 @@
+<!--Metadata & Elements -->
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Order Your Pizza</title>
+
+    <!-- Link the CSS -->
+    <link rel="stylesheet" href="./css/style.css"> 
+</head>
+<body>
+ 
+    <main>
+        <!-- Contact Information -->
+
+        <section class="order-pizza">
+            <h1>Order Your Pizza</h1>
+            <form id="pizzaForm">
+                <label for="name">Name:</label>
+                <input type="text" id="name" name="name" required>
+
+                <label for="email">Email:</label>
+                <input type="email" id="email" name="email" required>
+
+                <label for="phone">Phone:</label>
+                <input type="tel" id="phone" name="phone" pattern="[0-9]{3}-[0-9]{3}-[0-9]{4}"
+                       placeholder="123-456-7890" required>
+                
+
+                <!-- Pizza Options-->
+            <section class = pizza-option>
+                <h2>Pizza Choice</h2>
+
+             <label>
+            <input type="radio" name="pizzaType" value="Cheese" checked> Cheese Pizza
+            </label>
+             <img src="./img/cheesepizza.png" alt="Cheese Pizza">
+             <span class="pizza-price">$10.99</span>
+
+
+             <label>
+             <input type="radio" name="pizzaType" value="Pepperoni" checked> Pepperoni Pizza
+            </label>
+             <img src="./img/peppizza.png" alt="Pepperoni Pizza">
+             <span class="pizza-price">$12.99</span>
+
+             <label>
+             <input type="radio" name="pizzaType" value="Hawaiian" checked> Hawaiian Pizza
+            </label>
+             <img src="./img/hawaiian.png" alt="Hawaiian Pizza">
+             <span class="pizza-price">$13.99</span>
+
+
+             <label>
+             <input type="radio" name="pizzaType" value="Meat Pizza" checked> Meat Pizza
+            </label>
+             <img src="./img/meatpizza.png"  alt="Meat Pizza">
+             <span class="pizza-price">$14.99</span>
+
+
+             <label>
+             <input type="radio" name="pizzaType" value="Veggie Pizza" checked> Veggie Pizza
+            </label>
+             <img src="./img/veggiepizza.png"  alt="Veggie Pizza">
+             <span class="pizza-price">$11.99</span>
+
+
+             <label>
+             <input type="radio" name="pizzaType" value=" Works Pizza" checked> The Works Pizza
+            </label>
+             <img src="./img/workspizza.png"  alt="The Works Pizza">
+             <span class="pizza-price">$14.99</span>
+
+             </section>
+
+
+              <!-- Pizza Toppings -->
+            <section class="pizza-toppings">
+            <h3> Pizza Toppings </h3>
+            <label>
+            <input type="checkbox" name="Toppings" Value ="Pepperoni" >  Pepperoni
+            </label>
+             <img src="./img/pepperoni.jpg" alt="Pepperoni">
+             <span class="toppings-price">$0.50</span>
+
+
+             <label>
+             <input type="checkbox" name="Toppings" Value ="Peppers">  Peppers
+            </label>
+             <img src="./img/peppers.png" alt="Pepper">
+             <span class="toppings-price">$0.50</span>
+
+
+             <label>
+             <input type="checkbox" name="Toppings" Value ="Mushrooms" > Mushrooms
+            </label>
+             <img src="./img/mushroom.jpg" alt="Mushrooms"> 
+             <span class="toppings-price">$0.50</span>
+
+
+             <label>
+             <input type="checkbox" name="Toppings" Value ="Tomatoes" > Tomatoes
+            </label>
+             <img src="./img/tomato.jpeg" alt="Tomatoes">
+             <span class="toppings-price">$0.50</span>
+
+
+             <label>
+             <input type="checkbox" name="Toppings" Value ="Olives" >  Olives
+            </label>
+             <img src="./img/olives.jpg" alt="Olives">
+             <span class="toppings-price">$0.50</span>
+
+            </section>
+
+                <!-- Pizza Size -->
+                <section class="order-size">
+                    <h4>Pizza Size:</h4>
+                    <input type="radio" name="pizzaSize" value="small" > Small
+                    <input type="radio" name="pizzaSize" value="medium"> Medium
+                    <input type="radio" name="pizzaSize" value="large"> Large
+                </section>
+
+
+                <!-- Drinks -->
+
+                <section class="drink-option">
+                <h5> Types of Drinks </h5>
+
+             <label>
+            <input type="checkbox" name="Drinks" Value ="Coke" >  Coke
+            </label>
+             <img src="./img/coke.jpeg" alt="Coke ">
+             <span class="drink-price">$2.25</span>
+
+             
+
+             <label>
+            <input type="checkbox" name="Drinks" Value ="Diet Coke" >  Diet Coke
+            </label>
+            <img src="./img/dietcoke.png" alt="Diet Coke">
+            <span class="drink-price">$2.25</span>
+
+
+            <label>
+                <input type="checkbox" name="Drinks" Value ="Fanta" > Fanta
+                </label>
+                <img src="./img/fanta.jpeg"  alt="Fanta">
+                <span class="drink-price">$2.25</span>
+
+
+                <label>
+                    <input type="checkbox" name="Drinks" Value ="Nestea"> Nestea
+                    </label>
+                    <img src="./img/nestea.png" alt="Nestea">
+                    <span class="drink-price">$2.25</span>
+
+
+                    <label>
+                        <input type="checkbox" name="Drinks" Value ="7Up"> 7Up
+                        </label>
+                        <img src="./img/7up.png" alt="Drinks">
+                        <span class="drink-price">$2.25</span>
+
+
+                        <label>
+                            <input type="checkbox" name="Drinks" Value ="Sprite" > Sprite
+                            </label>
+                            <img src="./img/sprite.jpeg" alt="Drinks">
+                            <span class="drink-price">$2.25</span>
+
+                </section>
+                 
+                <!-- Method of Recievement-->
+                
+                <h6>Delivery/Pickup:</h6>
+                <label>
+                <input type="radio" name="deliveryOption" value="delivery" > Delivery
+                </label>
+
+                 <label>
+                 <input type="radio" name="deliveryOption" value="pickup"> Pickup
+                 </label>
+
+                 <!-- Submit Button -->
+
+                 <section class="thank-you">
+
+                 <button type="submit">Submit Order</button>
+                </section>
+
+
+ 
+
+                
